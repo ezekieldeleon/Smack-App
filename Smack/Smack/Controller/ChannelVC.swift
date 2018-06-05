@@ -13,6 +13,7 @@ class ChannelVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Calculates how much view to show for menu.
         self.revealViewController()?.rearViewRevealWidth = self.view.frame.size.width - 60
     }
 }
