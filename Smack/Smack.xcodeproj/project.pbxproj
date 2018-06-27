@@ -24,6 +24,7 @@
 		F49932B420E2714D006B10D4 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49932B320E2714D006B10D4 /* ChannelCell.swift */; };
 		F49932B720E2750E006B10D4 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49932B520E2750E006B10D4 /* AddChannelVC.swift */; };
 		F49932B820E2750E006B10D4 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49932B620E2750E006B10D4 /* AddChannelVC.xib */; };
+		F49932BA20E27C0E006B10D4 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49932B920E27C0E006B10D4 /* SocketService.swift */; };
 		F4C8390820C6C1A800F4A233 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C8390720C6C1A800F4A233 /* GradientView.swift */; };
 		F4CE0E5720C80EB000F0C2CE /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE0E5620C80EB000F0C2CE /* CreateAccountVC.swift */; };
 		F4DBB8BA20D93BFD00E65887 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DBB8B920D93BFD00E65887 /* MessageService.swift */; };
@@ -55,6 +56,7 @@
 		F49932B320E2714D006B10D4 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		F49932B520E2750E006B10D4 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		F49932B620E2750E006B10D4 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		F49932B920E27C0E006B10D4 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		F4C8390720C6C1A800F4A233 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F4CE0E5620C80EB000F0C2CE /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		F4DBB8B920D93BFD00E65887 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				F46B562D20CAC10E00466855 /* AuthService.swift */,
 				F494193A20CDACCB005F5AF2 /* UserDataService.swift */,
 				F4DBB8B920D93BFD00E65887 /* MessageService.swift */,
+				F49932B920E27C0E006B10D4 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49932BA20E27C0E006B10D4 /* SocketService.swift in Sources */,
 				F45287F920D483B2008BADDC /* ProfileVC.swift in Sources */,
 				F49932B420E2714D006B10D4 /* ChannelCell.swift in Sources */,
 				F429F49820C60E9E00BA6759 /* ChannelVC.swift in Sources */,
