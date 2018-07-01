@@ -21,6 +21,7 @@
 		F4753BAC20C44C9000995FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4753BAA20C44C9000995FBB /* Main.storyboard */; };
 		F4753BAE20C44C9100995FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4753BAD20C44C9100995FBB /* Assets.xcassets */; };
 		F4753BB120C44C9100995FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4753BAF20C44C9100995FBB /* LaunchScreen.storyboard */; };
+		F47D8C7420E9348B000ECCAA /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D8C7320E9348B000ECCAA /* MessageCell.swift */; };
 		F491498E20E3C6A30080CCDD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491498D20E3C6A30080CCDD /* Message.swift */; };
 		F494193B20CDACCB005F5AF2 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F494193A20CDACCB005F5AF2 /* UserDataService.swift */; };
 		F49932B420E2714D006B10D4 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49932B320E2714D006B10D4 /* ChannelCell.swift */; };
@@ -55,6 +56,7 @@
 		F4753BAD20C44C9100995FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4753BB020C44C9100995FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4753BB220C44C9100995FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47D8C7320E9348B000ECCAA /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		F491498D20E3C6A30080CCDD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		F494193A20CDACCB005F5AF2 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		F49932B320E2714D006B10D4 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				F4F5B47420D006EA00E62E5E /* CircleImage.swift */,
 				F49932B320E2714D006B10D4 /* ChannelCell.swift */,
 				F45FCB6E20E5B1BF00752E44 /* KeyboardBoundView.swift */,
+				F47D8C7320E9348B000ECCAA /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				F49932B420E2714D006B10D4 /* ChannelCell.swift in Sources */,
 				F429F49820C60E9E00BA6759 /* ChannelVC.swift in Sources */,
 				F4F5B47120CFFCB500E62E5E /* AvatarPickerVC.swift in Sources */,
+				F47D8C7420E9348B000ECCAA /* MessageCell.swift in Sources */,
 				F46B563020CAF6D100466855 /* RoundedButton.swift in Sources */,
 				F491498E20E3C6A30080CCDD /* Message.swift in Sources */,
 				F4DBB8BC20D93C2400E65887 /* Channel.swift in Sources */,
