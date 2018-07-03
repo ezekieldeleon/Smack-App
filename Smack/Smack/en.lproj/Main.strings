@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "0bo-Lq-Qum"; */
+"0bo-Lq-Qum.text" = "Message";
+
+/* Class = "UITextField"; placeholder = "username"; ObjectID = "1qc-kq-2wo"; */
+"1qc-kq-2wo.placeholder" = "username";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "3hh-dK-pAY"; */
+"3hh-dK-pAY.normalTitle" = "Create Account";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "90j-zN-aDt"; */
+"90j-zN-aDt.placeholder" = "email";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "9ho-uB-bhB"; */
+"9ho-uB-bhB.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Message:"; ObjectID = "BII-X1-RPg"; */
+"BII-X1-RPg.placeholder" = "Message:";
+
+/* Class = "UISegmentedControl"; Es7-WC-F37.segmentTitles[0] = "Dark"; ObjectID = "Es7-WC-F37"; */
+"Es7-WC-F37.segmentTitles[0]" = "Dark";
+
+/* Class = "UISegmentedControl"; Es7-WC-F37.segmentTitles[1] = "Light"; ObjectID = "Es7-WC-F37"; */
+"Es7-WC-F37.segmentTitles[1]" = "Light";
+
+/* Class = "UILabel"; text = "Create an Account"; ObjectID = "IkT-PB-n00"; */
+"IkT-PB-n00.text" = "Create an Account";
+
+/* Class = "UILabel"; text = "#general"; ObjectID = "M4k-2v-XYT"; */
+"M4k-2v-XYT.text" = "#general";
+
+/* Class = "UILabel"; text = "12:33 PM"; ObjectID = "NGq-bC-ZEq"; */
+"NGq-bC-ZEq.text" = "12:33 PM";
+
+/* Class = "UILabel"; text = "EzekielDL"; ObjectID = "RLD-0H-Gl6"; */
+"RLD-0H-Gl6.text" = "EzekielDL";
+
+/* Class = "UILabel"; text = "CHANNELS"; ObjectID = "T5n-9i-YBf"; */
+"T5n-9i-YBf.text" = "CHANNELS";
+
+/* Class = "UILabel"; text = "Smack"; ObjectID = "Wn3-8E-79h"; */
+"Wn3-8E-79h.text" = "Smack";
+
+/* Class = "UITextField"; placeholder = "username"; ObjectID = "a5c-76-rky"; */
+"a5c-76-rky.placeholder" = "username";
+
+/* Class = "UILabel"; text = "Smack"; ObjectID = "kFB-sY-zqT"; */
+"kFB-sY-zqT.text" = "Smack";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "kc7-DX-Z8x"; */
+"kc7-DX-Z8x.placeholder" = "password";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "rhM-b6-fE3"; */
+"rhM-b6-fE3.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Generate background color"; ObjectID = "u0a-C1-CDx"; */
+"u0a-C1-CDx.normalTitle" = "Generate background color";
+
+/* Class = "UILabel"; text = "Smack"; ObjectID = "uUg-aB-m0e"; */
+"uUg-aB-m0e.text" = "Smack";
+
+/* Class = "UIButton"; normalTitle = "Don't have an account? Sign up here"; ObjectID = "vjQ-Y7-veM"; */
+"vjQ-Y7-veM.normalTitle" = "Don't have an account? Sign up here";
+
+/* Class = "UIButton"; normalTitle = "Choose avatar"; ObjectID = "wTA-yv-rCB"; */
+"wTA-yv-rCB.normalTitle" = "Choose avatar";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "ykU-Pd-r2y"; */
+"ykU-Pd-r2y.placeholder" = "password";
