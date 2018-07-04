@@ -31,7 +31,6 @@ class AddChannelVC: UIViewController {
     }
     
     @IBAction func closeModalPressed(_ sender: Any) {
-        
         dismiss(animated: true, completion: nil)
     }
     

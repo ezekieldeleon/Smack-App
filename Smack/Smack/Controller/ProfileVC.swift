@@ -45,4 +45,10 @@ class ProfileVC: UIViewController {
     @objc func closeTap(_ recognizer: UITapGestureRecognizer){
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func editBtnWasPressed(_ sender: Any) {
+            let editUser = EditUser()
+            editUser.modalPresentationStyle = .custom
+            present(editUser, animated: true, completion: nil)
+    }
 }
