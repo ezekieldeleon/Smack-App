@@ -21,6 +21,8 @@
 		F4753BAC20C44C9000995FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4753BAA20C44C9000995FBB /* Main.storyboard */; };
 		F4753BAE20C44C9100995FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4753BAD20C44C9100995FBB /* Assets.xcassets */; };
 		F4753BB120C44C9100995FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4753BAF20C44C9100995FBB /* LaunchScreen.storyboard */; };
+		F4783A0C20ED5899007EE3C5 /* EditUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4783A0A20ED5899007EE3C5 /* EditUser.swift */; };
+		F4783A0D20ED5899007EE3C5 /* EditUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4783A0B20ED5899007EE3C5 /* EditUser.xib */; };
 		F47D8C7420E9348B000ECCAA /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D8C7320E9348B000ECCAA /* MessageCell.swift */; };
 		F491498E20E3C6A30080CCDD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491498D20E3C6A30080CCDD /* Message.swift */; };
 		F494193B20CDACCB005F5AF2 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F494193A20CDACCB005F5AF2 /* UserDataService.swift */; };
@@ -57,6 +59,8 @@
 		F4753BAD20C44C9100995FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4753BB020C44C9100995FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4753BB220C44C9100995FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4783A0A20ED5899007EE3C5 /* EditUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUser.swift; sourceTree = "<group>"; };
+		F4783A0B20ED5899007EE3C5 /* EditUser.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditUser.xib; sourceTree = "<group>"; };
 		F47D8C7320E9348B000ECCAA /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		F491498D20E3C6A30080CCDD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		F494193A20CDACCB005F5AF2 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 				F4F5B47020CFFCB500E62E5E /* AvatarPickerVC.swift */,
 				F45287F720D483B2008BADDC /* ProfileVC.swift */,
 				F49932B520E2750E006B10D4 /* AddChannelVC.swift */,
+				F4783A0A20ED5899007EE3C5 /* EditUser.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			children = (
 				F45287F820D483B2008BADDC /* ProfileVC.xib */,
 				F49932B620E2750E006B10D4 /* AddChannelVC.xib */,
+				F4783A0B20ED5899007EE3C5 /* EditUser.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -279,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4783A0D20ED5899007EE3C5 /* EditUser.xib in Resources */,
 				F49932B820E2750E006B10D4 /* AddChannelVC.xib in Resources */,
 				F45287FA20D483B2008BADDC /* ProfileVC.xib in Resources */,
 				F4753BB120C44C9100995FBB /* LaunchScreen.storyboard in Resources */,
@@ -361,6 +368,7 @@
 				F4F5B47320CFFE0900E62E5E /* AvatarCell.swift in Sources */,
 				F4753BA720C44C9000995FBB /* AppDelegate.swift in Sources */,
 				F4E68EB120C4514B00888425 /* SWRevealViewController.m in Sources */,
+				F4783A0C20ED5899007EE3C5 /* EditUser.swift in Sources */,
 				F42D1B8020C6C9E100409BB5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
