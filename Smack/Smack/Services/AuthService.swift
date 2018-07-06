@@ -137,7 +137,7 @@ class AuthService {
             "avatarName": UserDataService.instance.avatarName,
             "avatarColor": UserDataService.instance.avatarColor
         ]
-        print(UserDataService.instance.id)
+        
         Alamofire.request(URL_UPDATE_USER_BY_ID, method: .put, parameters: body, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
             if response.result.error == nil {
                 completion(true)
@@ -157,6 +157,5 @@ class AuthService {
         let email = json["email"].stringValue
         let name = json["name"].stringValue
         UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
-    }
-    
+    }    
 }

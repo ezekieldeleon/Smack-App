@@ -23,7 +23,7 @@ class EditUser: UIViewController {
     }
     @IBAction func doneBtnWasPressed(_ sender: Any) {
         guard let username = editUsernameTxtField.text, editUsernameTxtField.text != "" else { return }
-        print(username)
+        
         AuthService.instance.updateUsername(newUsername: username) { (success) in
             if success {
                 AuthService.instance.findUserByEmail { (success) in
