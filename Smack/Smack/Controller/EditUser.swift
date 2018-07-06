@@ -22,6 +22,16 @@ class EditUser: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     @IBAction func doneBtnWasPressed(_ sender: Any) {
+        guard let username = editUsernameTxtField.text, editUsernameTxtField.text != "" else { return }
+        print(username)
+        AuthService.instance.updateUsername(newUsername: username) { (success) in
+            if success {
+                AuthService.instance.findUserByEmail { (success) in
+                    NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
+                    self.dismiss(animated: true, completion: nil)
+                }
+            }
+        }
     }
     
     func setUpView(){
